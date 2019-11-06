@@ -1,0 +1,55 @@
+html {
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.register-employee {
+  margin-top: 25px;
+}
+
+.invalid-feedback {
+  display: block;
+}
+
+.edit-block span {
+  color: blue;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 4px;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.no-data {
+  padding: 25px 0;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active:focus,
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus,
+.show>.btn-outline-primary.dropdown-toggle:focus {
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
