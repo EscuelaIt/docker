@@ -1,0 +1,23 @@
+version: '3'
+
+services:
+  laravel:
+    build: ./laravel
+    ports:
+      - "127.0.0.1:8000:8000"
+    links:
+      - mysql:mysql
+      - redis:redis
+    depends_on:
+      - mysql
+      - redis
+    env_file: .env
+    command: ./run_app.sh
+
+  mysql:
+    image: mysql:5.7
+    env_file: .env
+
+  redis:
+    image: redis
+    env_file: .env
