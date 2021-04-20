@@ -15,7 +15,7 @@ packaging==19.2
 paramiko==2.6.0
 pluggy==0.13.0
 psycopg2-binary==2.7.7
-py==1.8.0
+py==1.10.0
 pycodestyle==2.5.0
 pycparser==2.19
 pyflakes==2.1.1
